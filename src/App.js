@@ -20,7 +20,7 @@ function CityTemperatures({ lat, long }) {
   for (let i = 0; i < 10; i++) {
     rows.push(
       <Row>
-        <Col>{time + i}:00</Col>
+        <Col>{(time + i) % 24}:00</Col>
         <Col>{temperatures[i]} F</Col>
       </Row>
     )
