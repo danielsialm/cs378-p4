@@ -14,7 +14,7 @@ root.render(
     <Auth0Provider
         domain='dev-tamf33vdybl1ukmj.us.auth0.com'
         clientId='YL7pwe68h7ygs6hXNuFkO9h4MaVOEnrp'
-        redirectUri={window.location.origin}>
+        redirectUri={'https://danielsialm.github.io/cs378-p4/'}>
         <App />
     </Auth0Provider>
 );
