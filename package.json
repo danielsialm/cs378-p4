@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://danielsialm.github.io/cs378-p3",
+  "homepage": "https://danielsialm.github.io/cs378-p4",
   "private": true,
   "dependencies": {
     "@auth0/auth0-react": "^2.0.1",
