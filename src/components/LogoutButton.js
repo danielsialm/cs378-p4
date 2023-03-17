@@ -11,7 +11,7 @@ const LogoutButton = () => {
 			<>
 				<button className="btn btn-primary
 					mx-5 my-5 px-4 logoutBtn"
-					onClick={() => logout({ returnTo: window.location.origin })}>
+					onClick={() => logout({ returnTo: 'https://danielsialm.github.io/cs378-p4/' })}>
 				Log Out
 				</button>
 				<br />
